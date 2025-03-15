@@ -1,0 +1,6 @@
+def fahrenheit_to_celsius(fahrenheit):
+    celsius = (5/9) * (fahrenheit - 32)
+    return celsius
+
+f = float(input("Masukkan suhu dalam Fahrenheit: "))
+print(f"Suhu dalam Celsius: {fahrenheit_to_celsius(f)}")
